@@ -1,4 +1,5 @@
 # ExpenseMasterFinal
+# Expense Master
 
 **Introduction**
 
@@ -28,12 +29,14 @@ To assist students in tracking their daily, monthly, and annual spending, promot
 
 Expense Master follows an iterative development approach based on Agile principles, ensuring alignment with stakeholder requirements and fostering continuous improvement.
 
-Database Management: MySQL Server
-Development Environment: Visual Studio
-Backend Framework: Laravel
-Version Control: Git (using GitHub for version control)
-Prototyping Tool: Figma
-Cloud Computing: Amazon Web Services (AWS)
+**Tools and Technologies**
+
+* Database Management: MySQL Server
+* Development Environment: Visual Studio
+* Backend Framework: Laravel
+* Version Control: Git (using GitHub for version control)
+* Prototyping Tool: Figma
+* Cloud Computing: Amazon Web Services (AWS)
 
 **Installation**
 
@@ -41,59 +44,6 @@ Cloud Computing: Amazon Web Services (AWS)
 
 ```bash
 git clone [https://github.com/yourusername/expense-master.git](https://github.com/yourusername/expense-master.git)
-Use code with caution.
-content_copy
-Install dependencies:
-Bash
-composer install
-npm install
-Use code with caution.
-content_copy
-Set up the database:
-Bash
-php artisan migrate
-Use code with caution.
-content_copy
-Serve the application:
-Bash
-php artisan serve
-Use code with caution.
-content_copy
-Usage
 
-Register or log in to the system.
-Add your daily expenses through the "Add Expense" feature.
-View and manage your budget through the dashboard.
-Generate and customize expense reports.
-Contribution
 
-Fork the repository.
-Create a new branch:
-Bash
-git checkout -b feature-branch
-Use code with caution.
-content_copy
-Commit your changes:
-Bash
-git commit -m "Description of your changes"
-Use code with caution.
-content_copy
-Push to the branch:
-Bash
-git push origin feature-branch
-Use code with caution.
-content_copy
-Create a pull request.
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Authors
-
-Ian Waruingi Karanja - GitHub
-Arthur Ng’ang’a Nyota - GitHub
-Acknowledgements
-
-Supervisor: Stephen Obonyo
-Lecturer: Kevin Omondi
-Family and friends for their support and advice.
