@@ -44,6 +44,7 @@ To run this project you will need to install the following dependancies
 
 ## Project Structure
 # Project Root
+```plaintext
 │
 ├─── app
 │   ├─── Http
