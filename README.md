@@ -1,49 +1,114 @@
-# ExpenseMasterFinal
-# Expense Master
-
-**Introduction**
-
-Expense Master is a budgeting solution designed to streamline expense tracking, enhance financial visibility, and optimize resource allocation for university students. Leveraging technologies like MySQL Server and Visual Studio, Expense Master aims to empower students with tools for better financial management.
-
-**Features**
-
-* Intuitive Interfaces: Easy-to-use interfaces for seamless navigation.
-* Automated Expense Tracking: Automatically track and categorize expenses.
-* Customizable Reporting: Generate reports for informed decision-making.
-* User-Centric Design: Developed using Agile principles to ensure continuous improvement.
-
-**Objectives**
-
-**General Objective**
-
-To assist students in tracking their daily, monthly, and annual spending, promoting financial literacy and responsible financial management.
-
-**Specific Objectives**
-
-1. Investigate existing budget tracking systems tailored for students.
-2. Build a system addressing the specific needs of Kenyan students.
-3. Identify and address challenges in current budget tracking systems.
-4. Test and validate the Expense Master system.
-
-**Methodology**
-
-Expense Master follows an iterative development approach based on Agile principles, ensuring alignment with stakeholder requirements and fostering continuous improvement.
-
-**Tools and Technologies**
-
-* Database Management: MySQL Server
-* Development Environment: Visual Studio
-* Backend Framework: Laravel
-* Version Control: Git (using GitHub for version control)
-* Prototyping Tool: Figma
-* Cloud Computing: Amazon Web Services (AWS)
-
-**Installation**
-
-1. Clone the repository:
-
-```bash
-git clone [https://github.com/yourusername/expense-master.git](https://github.com/yourusername/expense-master.git)
+# *Expense Master: A web based budget tracking system*
+## Description 
+Expense Master is an intuitive and robust expense management system designed specifically for students. The platform helps students effortlessly track, manage, and optimize their personal finances, ensuring they can maintain a healthy budget and achieve financial stability throughout their academic journey.
 
 
+## Dependancies
+To run this project you will need to install the following dependancies
 
+1. *MySQL* - Serves as Database
+- ![MySQL Logo](https://www.mysql.com/common/logos/logo-mysql-170x115.png)
+    Installation: [Download mysql](https://dev.mysql.com/downloads/installer/)
+2. *NodeJs* 
+   - Installation: [Download nodejs](https://nodejs.org/en/download/package-manager)
+3. *Laravel* 
+ - ![Laravel Logo](https://laravel.com/img/logomark.min.svg)
+   Installation:  [Download Laravel](https://laravel.com/docs/11.x/installation)
+4. *Node Package Manager*(NPM)
+  -  Installation [NPM](https://www.npmjs.com/)
+5. *Composer* - Dependancy manager for PHP
+- ![Composer Logo](https://getcomposer.org/img/logo-composer-transparent5.png)
+  Installation [Composer](https://getcomposer.org/) 
+
+
+## Installation
+- *Fork the Repository*:
+    Click on the Fork button at the top right corner of this page.
+
+- *Clone Your Fork*:
+    bash
+    git clone https://github.com/tanuithecreator/IS1.git
+    
+- Install dependencies with *composer install*
+- Copy *.env.example* to *.env* and configure your environment variables
+- Generate application key with *php artisan key:generate*
+- Migrate database with *php artisan migrate*
+- Serve the application with *php artisan serve*
+
+## Features
+- User registration and authentication
+- Donation form for users to input food donation details
+- Matching system to connect donors with recipients
+- Admin panel to manage donations and users
+- Reporting and analytics for tracking donations
+
+## Project Structure
+# Project Root
+│
+├─── app
+│   ├─── Http
+│   │   └─── Controllers
+│   │       ├── AboutController.php
+│   │       ├── AdminController.php
+│   │       ├── BlogController.php
+│   │       ├── CategoryController.php
+│   │       ├── CauseController.php
+│   │       ├── ContactController.php
+│   │       ├── Controller.php
+│   │       ├── DetailsController.php
+│   │       ├── HomeController.php
+│   │       └── VolunteerController.php
+│   ├─── Models
+│   ├─── Providers
+│   └─── View
+│
+├─── bootstrap
+│
+├─── config
+│
+├─── database
+│
+├─── public
+│
+├─── resources
+│   ├─── views
+│   │   ├── About.blade.php
+│   │   ├── Blog.blade.php
+│   │   ├── Cause.blade.php
+│   │   ├── contact.blade.php
+│   │   ├── dashboard.blade.php
+│   │   ├── home.blade.php
+│   │   ├── navigation-menu.blade.php
+│   │   ├── policy.blade.php
+│   │   ├── terms.blade.php
+│   │   │
+│   │   ├─── Category
+│   │   ├─── components
+│   │   ├─── Details
+│   │   ├─── emails
+│   │   ├─── layouts
+│   │   ├─── profile
+│   │   └─── Volunteer
+│
+├─── routes
+│
+├─── storage
+│
+├─── tests
+│
+├─── .editorconfig
+├─── .env.example
+├─── .gitattributes
+├─── .gitignore
+└─── README.md
+
+
+## License
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+##  Contact
+For any inquiries or feedback, please reach out to:
+
+-Arthur Nyota - [Arthur](arthur.nyota@strathmore.edu)
+-Ian Karanja - [Ian](ian.karanja@strathmore.edu)
