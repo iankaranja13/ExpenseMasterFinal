@@ -22,12 +22,14 @@ To run this project you will need to install the following dependancies
 
 
 ## Installation
-- *Fork the Repository*:
-    Click on the Fork button at the top right corner of this page.
 
-- *Clone Your Fork*:
-    bash
-    git clone https://(https://github.com/iankaranja13)
+- **Fork the Repository**:
+  Click on the Fork button at the top right corner of this page.
+
+- **Clone Your Fork**:
+  ```bash
+  git clone https://github.com/iankaranja13
+
     
 - Install dependencies with *composer install*
 - Copy *.env.example* to *.env* and configure your environment variables
@@ -105,13 +107,13 @@ To run this project you will need to install the following dependancies
 
 
 License
-This project is licensed under the MIT license.
+This project is licensed under the [MIT license.]
 
 Contact
 For any inquiries or feedback, please reach out to:
 
-Arthur Nyota - arthur.nyota@strathmore.edu
-Ian Karanja - ian.karanja@strathmore.edu
+Arthur Nyota - [arthur.nyota@strathmore.edu]
+Ian Karanja - [ian.karanja@strathmore.edu]
 
 
 -Arthur Nyota - [Arthur](arthur.nyota@strathmore.edu)
