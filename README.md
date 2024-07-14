@@ -27,7 +27,7 @@ To run this project you will need to install the following dependancies
 
 - *Clone Your Fork*:
     bash
-    git clone https://github.com/tanuithecreator/IS1.git
+    git clone https://(https://github.com/iankaranja13)
     
 - Install dependencies with *composer install*
 - Copy *.env.example* to *.env* and configure your environment variables
