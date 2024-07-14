@@ -104,12 +104,15 @@ To run this project you will need to install the following dependancies
 └─── README.md
 
 
-## License
-This project is licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
+License
+This project is licensed under the MIT license.
 
-
-##  Contact
+Contact
 For any inquiries or feedback, please reach out to:
+
+Arthur Nyota - arthur.nyota@strathmore.edu
+Ian Karanja - ian.karanja@strathmore.edu
+
 
 -Arthur Nyota - [Arthur](arthur.nyota@strathmore.edu)
 -Ian Karanja - [Ian](ian.karanja@strathmore.edu)
