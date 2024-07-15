@@ -35,13 +35,46 @@ To run this project you will need to install the following dependancies
 To get started, follow these steps:
 
 ```bash
-Install dependencies with composer install
+## Installation
 
-Copy .env.example to .env and configure your environment variables
-Generate application key with php artisan key:generate
-Migrate database with php artisan migrate
-Serve the application with php artisan serve to commands on my README file in github.
- Features
+- *Fork the Repository*:
+    Click on the Fork button at the top right corner of this page.
+
+- *Clone Your Fork*:
+    ```bash
+    git clone https://(https://github.com/iankaranja13)
+    ```
+
+- Install dependencies:
+    ```bash
+    composer install
+    ```
+
+- Copy `.env.example` to `.env` and configure your environment variables:
+    ```bash
+    cp .env.example .env
+    # Then, open the .env file and configure your environment variables
+    ```
+
+- Generate application key:
+    ```bash
+    php artisan key:generate
+    ```
+
+- Migrate database:
+    ```bash
+    php artisan migrate
+    ```
+
+- Serve the application:
+    ```bash
+    php artisan serve
+    ```
+
+
+
+
+Features
 - User registration and authentication
 - Donation form for users to input food donation details
 - Matching system to connect donors with recipients
