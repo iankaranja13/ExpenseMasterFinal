@@ -35,20 +35,21 @@ To run this project you will need to install the following dependancies
 To get started, follow these steps:
 
 ```bash
-composer install
-cp.env.example.env
-php artisan key:generate
-php artisan migrate
-php artisan serve
-## Features
+Install dependencies with composer install
+
+Copy .env.example to .env and configure your environment variables
+Generate application key with php artisan key:generate
+Migrate database with php artisan migrate
+Serve the application with php artisan serve to commands on my README file in github.
+ Features
 - User registration and authentication
 - Donation form for users to input food donation details
 - Matching system to connect donors with recipients
 - Admin panel to manage donations and users
 - Reporting and analytics for tracking donations
 
-## Project Structure
-# Project Root
+ Project Structure
+ Project Root
 ```plaintext
 │
 ├─── app
@@ -110,7 +111,7 @@ php artisan serve
 
 
 License
-This project is licensed under the [MIT license.]
+This project is licensed under the ##[MIT license.]
 
 Contact
 For any inquiries or feedback, please reach out to:
