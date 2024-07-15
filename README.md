@@ -143,14 +143,14 @@ Features
 └─── README.md
 
 
-License
-This project is licensed under the [##MIT license.]
+## License
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-Contact
+## Contact
 For any inquiries or feedback, please reach out to:
 
-Arthur Nyota - [arthur.nyota@strathmore.edu]
-Ian Karanja - [ian.karanja@strathmore.edu]
+- Arthur Nyota - [arthur.nyota@strathmore.edu](mailto:arthur.nyota@strathmore.edu)
+- Ian Karanja - [ian.karanja@strathmore.edu](mailto:ian.karanja@strathmore.edu)
 
 
 -Arthur Nyota - [Arthur](arthur.nyota@strathmore.edu)
