@@ -83,7 +83,7 @@ Features
 
  Project Structure
  Project Root
-
+``` bash
 │
 ├─── app
 │   ├─── Http
