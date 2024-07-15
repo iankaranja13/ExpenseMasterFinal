@@ -30,13 +30,16 @@ To run this project you will need to install the following dependancies
   ```bash
   git clone https://github.com/iankaranja13
 
-    
-- Install dependencies with *composer install*
-- Copy *.env.example* to *.env* and configure your environment variables
-- Generate application key with *php artisan key:generate*
-- Migrate database with *php artisan migrate*
-- Serve the application with *php artisan serve*
+  ### Installation and Setup
 
+To get started, follow these steps:
+
+```bash
+composer install
+cp.env.example.env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 ## Features
 - User registration and authentication
 - Donation form for users to input food donation details
