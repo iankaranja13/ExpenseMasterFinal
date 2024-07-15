@@ -50,7 +50,7 @@ Serve the application with php artisan serve to commands on my README file in gi
 
  Project Structure
  Project Root
-```plaintext
+
 │
 ├─── app
 │   ├─── Http
@@ -111,7 +111,7 @@ Serve the application with php artisan serve to commands on my README file in gi
 
 
 License
-This project is licensed under the ##[MIT license.]
+This project is licensed under the [##MIT license.]
 
 Contact
 For any inquiries or feedback, please reach out to:
