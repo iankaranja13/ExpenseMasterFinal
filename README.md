@@ -34,7 +34,7 @@ To run this project you will need to install the following dependancies
 
 To get started, follow these steps:
 
-```bash
+
 ## Installation
 
 - *Fork the Repository*:
